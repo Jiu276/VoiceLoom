@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - VoiceLoom</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <a href="index.html" class="logo">
+                        <svg class="logo-icon" viewBox="0 0 50 50">
+                            <circle cx="25" cy="25" r="20" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M15 20 Q25 15, 35 20 L35 30 Q25 35, 15 30 Z" fill="currentColor" opacity="0.9"/>
+                            <circle cx="25" cy="25" r="3" fill="currentColor"/>
+                        </svg>
+                        <span class="logo-text">VoiceLoom</span>
+                    </a>
+                    <div class="nav-menu" id="navMenu">
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="index.html#blog" class="nav-link">Blog</a>
+                        <a href="products.html" class="nav-link">Products</a>
+                        <a href="about.html" class="nav-link">About</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </div>
+                    <div class="nav-toggle" id="navToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Article Content -->
+    <article class="article-container">
+        <div class="article-header">
+            <div class="container">
+                <div class="article-meta-top">
+                    <span class="article-category" id="articleCategory"></span>
+                    <span class="article-date" id="articleDate"></span>
+                </div>
+                <h1 class="article-title" id="articleTitle"></h1>
+                <div class="article-meta-bottom">
+                    <div class="article-author">
+                        <i class="far fa-user"></i>
+                        <span id="articleAuthor"></span>
+                    </div>
+                    <div class="article-read-time">
+                        <i class="far fa-clock"></i>
+                        <span id="articleReadTime"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="article-image">
+            <img id="articleImage" src="" alt="">
+        </div>
+
+        <div class="container">
+            <div class="article-body">
+                <div class="article-content" id="articleContent"></div>
+
+                <div class="article-footer">
+                    <div class="article-share">
+                        <h3>Share this article</h3>
+                        <div class="share-buttons">
+                            <a href="#" class="share-btn facebook" onclick="shareOnFacebook()">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="share-btn twitter" onclick="shareOnTwitter()">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="share-btn linkedin" onclick="shareOnLinkedIn()">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="share-btn email" onclick="shareByEmail()">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="article-navigation">
+                        <a href="index.html#blog" class="btn-back">
+                            <i class="fas fa-arrow-left"></i>
+                            Back to Blog
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Articles -->
+            <section class="related-articles">
+                <h2>Related Articles</h2>
+                <div class="related-grid" id="relatedGrid"></div>
+            </section>
+        </div>
+    </article>
+
+    <!-- Social Media Widget -->
+    <div class="social-widget">
+        <a href="https://facebook.com" target="_blank" class="social-link" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="social-link" title="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="social-link" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="social-link" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://youtube.com" target="_blank" class="social-link" title="YouTube">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">VoiceLoom</h3>
+                    <p>Your premier destination for luxury voice technology insights and reviews.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#blog">Blog</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="index.html#blog">Product Reviews</a></li>
+                        <li><a href="index.html#blog">Platforms</a></li>
+                        <li><a href="index.html#blog">Technology</a></li>
+                        <li><a href="index.html#blog">Guides</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for the latest voice technology updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VoiceLoom. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/blog-data.js"></script>
+    <script src="js/article.js"></script>
+</body>
+</html>

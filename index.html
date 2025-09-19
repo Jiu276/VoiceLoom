@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceLoom - Luxury Voice Technology Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <a href="index.html" class="logo">
+                        <svg class="logo-icon" viewBox="0 0 50 50">
+                            <circle cx="25" cy="25" r="20" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M15 20 Q25 15, 35 20 L35 30 Q25 35, 15 30 Z" fill="currentColor" opacity="0.9"/>
+                            <circle cx="25" cy="25" r="3" fill="currentColor"/>
+                        </svg>
+                        <span class="logo-text">VoiceLoom</span>
+                    </a>
+                    <div class="nav-menu" id="navMenu">
+                        <a href="index.html" class="nav-link active">Home</a>
+                        <a href="#blog" class="nav-link">Blog</a>
+                        <a href="products.html" class="nav-link">Products</a>
+                        <a href="about.html" class="nav-link">About</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </div>
+                    <div class="nav-toggle" id="navToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="banner-slider">
+            <div class="banner-slide active">
+                <div class="banner-content">
+                    <h1 class="banner-title">Discover Voice Technology Excellence</h1>
+                    <p class="banner-subtitle">Explore the latest in premium audio innovation and voice solutions</p>
+                    <a href="#blog" class="btn-primary">Explore Articles</a>
+                </div>
+                <div class="banner-image">
+                    <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800" alt="Voice Technology">
+                </div>
+            </div>
+            <div class="banner-slide">
+                <div class="banner-content">
+                    <h1 class="banner-title">Premium Voice Solutions</h1>
+                    <p class="banner-subtitle">Curated reviews of the finest voice technology products</p>
+                    <a href="products.html" class="btn-primary">View Products</a>
+                </div>
+                <div class="banner-image">
+                    <img src="https://images.unsplash.com/photo-1589903308904-1010c2294adc?w=800" alt="Premium Audio">
+                </div>
+            </div>
+        </div>
+        <div class="banner-controls">
+            <button class="banner-prev" onclick="changeSlide(-1)">‹</button>
+            <button class="banner-next" onclick="changeSlide(1)">›</button>
+        </div>
+        <div class="banner-dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest Articles</h2>
+                <p class="section-subtitle">Insights into voice technology and audio innovation</p>
+            </div>
+
+            <!-- Search and Filter -->
+            <div class="blog-controls">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search articles...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="category-filter">
+                    <button class="filter-btn active" data-category="all">All</button>
+                    <button class="filter-btn" data-category="product-review">Product Reviews</button>
+                    <button class="filter-btn" data-category="platform">Platforms</button>
+                    <button class="filter-btn" data-category="technology">Technology</button>
+                    <button class="filter-btn" data-category="guide">Guides</button>
+                </div>
+            </div>
+
+            <!-- Blog Grid -->
+            <div class="blog-grid" id="blogGrid">
+                <!-- Articles will be loaded here by JavaScript -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination" id="pagination">
+                <button class="page-btn" id="prevPage">Previous</button>
+                <div class="page-numbers" id="pageNumbers"></div>
+                <button class="page-btn" id="nextPage">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Widget -->
+    <div class="social-widget">
+        <a href="https://facebook.com" target="_blank" class="social-link" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="social-link" title="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="social-link" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="social-link" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://youtube.com" target="_blank" class="social-link" title="YouTube">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">VoiceLoom</h3>
+                    <p>Your premier destination for luxury voice technology insights and reviews.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#" class="category-link" data-cat="product-review">Product Reviews</a></li>
+                        <li><a href="#" class="category-link" data-cat="platform">Platforms</a></li>
+                        <li><a href="#" class="category-link" data-cat="technology">Technology</a></li>
+                        <li><a href="#" class="category-link" data-cat="guide">Guides</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for the latest voice technology updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VoiceLoom. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/blog-data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

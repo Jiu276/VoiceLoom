@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - VoiceLoom</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <a href="index.html" class="logo">
+                        <svg class="logo-icon" viewBox="0 0 50 50">
+                            <circle cx="25" cy="25" r="20" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M15 20 Q25 15, 35 20 L35 30 Q25 35, 15 30 Z" fill="currentColor" opacity="0.9"/>
+                            <circle cx="25" cy="25" r="3" fill="currentColor"/>
+                        </svg>
+                        <span class="logo-text">VoiceLoom</span>
+                    </a>
+                    <div class="nav-menu" id="navMenu">
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="index.html#blog" class="nav-link">Blog</a>
+                        <a href="products.html" class="nav-link active">Products</a>
+                        <a href="about.html" class="nav-link">About</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </div>
+                    <div class="nav-toggle" id="navToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Premium Voice Products</h1>
+            <p class="page-subtitle">Curated selection of luxury voice technology</p>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-filter">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="headphones">Headphones</button>
+                <button class="filter-btn" data-filter="speakers">Smart Speakers</button>
+                <button class="filter-btn" data-filter="microphones">Microphones</button>
+                <button class="filter-btn" data-filter="accessories">Accessories</button>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="headphones">
+                    <div class="product-badge">Premium</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400" alt="Sony WH-1000XM6">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Sony WH-1000XM6</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.8</span>
+                        </div>
+                        <p class="product-description">Industry-leading noise cancellation with exceptional voice clarity for calls and voice assistants.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">40hr Battery</span>
+                            <span class="feature-tag">Hi-Res Audio</span>
+                            <span class="feature-tag">Voice Prism</span>
+                        </div>
+                        <div class="product-price">$449</div>
+                        <a href="#" class="btn-product">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-category="headphones">
+                    <div class="product-badge">New</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?w=400" alt="Apple AirPods Pro 3">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Apple AirPods Pro 3</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>4.9</span>
+                        </div>
+                        <p class="product-description">Ultimate voice communication device with advanced noise cancellation and spatial audio.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">Voice Isolation</span>
+                            <span class="feature-tag">Spatial Audio</span>
+                            <span class="feature-tag">H2 Chip</span>
+                        </div>
+                        <div class="product-price">$299</div>
+                        <a href="#" class="btn-product">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-category="headphones">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1545127398-14699f92334b?w=400" alt="Bose QuietComfort Ultra">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Bose QuietComfort Ultra</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.7</span>
+                        </div>
+                        <p class="product-description">Legendary comfort meets cutting-edge voice technology with CustomTune personalization.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">CustomTune</span>
+                            <span class="feature-tag">32hr Battery</span>
+                            <span class="feature-tag">Immersive</span>
+                        </div>
+                        <div class="product-price">$429</div>
+                        <a href="#" class="btn-product">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-category="speakers">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1543512214-318c7553f230?w=400" alt="Amazon Echo Studio">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Amazon Echo Studio</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>4.6</span>
+                        </div>
+                        <p class="product-description">High-fidelity smart speaker with 3D audio and voice-controlled home automation.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">Dolby Atmos</span>
+                            <span class="feature-tag">Alexa</span>
+                            <span class="feature-tag">3D Audio</span>
+                        </div>
+                        <div class="product-price">$199</div>
+                        <a href="#" class="btn-product">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card" data-category="speakers">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1589003077984-894e133dabab?w=400" alt="Google Nest Audio">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Google Nest Audio</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.3</span>
+                        </div>
+                        <p class="product-description">Smart speaker with rich sound and Google Assistant for seamless voice control.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">Room EQ</span>
+                            <span class="feature-tag">Google Assistant</span>
+                            <span class="feature-tag">Multi-room</span>
+                        </div>
+                        <div class="product-price">$99</div>
+                        <a href="#" class="btn-product">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card" data-category="microphones">
+                    <div class="product-badge">Pro Choice</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=400" alt="Blue Yeti X">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Blue Yeti X</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <p class="product-description">Professional USB microphone with real-time LED metering and Blue VO!CE effects.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">4 Patterns</span>
+                            <span class="feature-tag">LED Meter</span>
+                            <span class="feature-tag">Blue VO!CE</span>
+                        </div>
+                        <div class="product-price">$169</div>
+                        <a href="#" class="btn-product">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card" data-category="microphones">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1589903308904-1010c2294adc?w=400" alt="Shure MV7">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Shure MV7</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.7</span>
+                        </div>
+                        <p class="product-description">Dynamic podcast microphone inspired by the legendary SM7B with USB and XLR outputs.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">USB/XLR</span>
+                            <span class="feature-tag">Touch Panel</span>
+                            <span class="feature-tag">ShurePlus</span>
+                        </div>
+                        <div class="product-price">$279</div>
+                        <a href="#" class="btn-product">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-badge">Essential</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=400" alt="Boom Arm Stand">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">InnoGear Boom Arm</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2</span>
+                        </div>
+                        <p class="product-description">Professional adjustable microphone boom arm with built-in cable management.</p>
+                        <div class="product-features">
+                            <span class="feature-tag">360° Rotation</span>
+                            <span class="feature-tag">Heavy Duty</span>
+                            <span class="feature-tag">Universal</span>
+                        </div>
+                        <div class="product-price">$39</div>
+                        <a href="#" class="btn-product">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Widget -->
+    <div class="social-widget">
+        <a href="https://facebook.com" target="_blank" class="social-link" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="social-link" title="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="social-link" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="social-link" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://youtube.com" target="_blank" class="social-link" title="YouTube">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+
+    <!-- Product Modal -->
+    <div class="product-modal" id="productModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeProductModal()">×</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="">
+                </div>
+                <div class="modal-details">
+                    <h2 id="modalTitle"></h2>
+                    <div class="modal-rating" id="modalRating"></div>
+                    <div class="modal-price" id="modalPrice"></div>
+
+                    <div class="modal-description">
+                        <h3>Description</h3>
+                        <p id="modalDescription"></p>
+                    </div>
+
+                    <div class="modal-features">
+                        <h3>Key Features</h3>
+                        <div id="modalFeatures"></div>
+                    </div>
+
+                    <div class="modal-specs">
+                        <h3>Specifications</h3>
+                        <ul id="modalSpecs"></ul>
+                    </div>
+
+                    <div class="modal-actions">
+                        <button class="btn-buy">Buy Now</button>
+                        <button class="btn-wishlist"><i class="far fa-heart"></i> Add to Wishlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">VoiceLoom</h3>
+                    <p>Your premier destination for luxury voice technology insights and reviews.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#blog">Blog</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#" data-filter="headphones">Headphones</a></li>
+                        <li><a href="#" data-filter="speakers">Smart Speakers</a></li>
+                        <li><a href="#" data-filter="microphones">Microphones</a></li>
+                        <li><a href="#" data-filter="accessories">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for the latest voice technology updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VoiceLoom. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/products.js"></script>
+</body>
+</html>
