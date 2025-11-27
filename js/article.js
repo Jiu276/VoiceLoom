@@ -6,13 +6,16 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Load article content
-function loadArticle() {
-    const articleData = JSON.parse(localStorage.getItem('currentArticle'));
+function loadArticle(articleOverride) {
+    let articleData = articleOverride || getArticleFromUrl() || getArticleFromStorage();
 
     if (!articleData) {
-        window.location.href = 'index.html';
+        window.location.href = 'index.html#blog';
         return;
     }
+
+    localStorage.setItem('currentArticle', JSON.stringify(articleData));
+    updateUrl(articleData.id);
 
     // Set page title
     document.title = `${articleData.title} - VoiceLoom`;
@@ -72,8 +75,9 @@ function loadNewArticle(articleId) {
     const article = blogArticles.find(a => a.id === articleId);
     if (article) {
         localStorage.setItem('currentArticle', JSON.stringify(article));
+        history.pushState({ articleId }, '', `?id=${articleId}`);
         window.scrollTo(0, 0);
-        loadArticle();
+        loadArticle(article);
     }
 }
 
@@ -94,6 +98,34 @@ function formatDate(dateString) {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     return date.toLocaleDateString('en-US', options);
 }
+
+function getArticleFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const articleId = params.get('id');
+    if (articleId) {
+        return blogArticles.find(article => article.id === Number(articleId));
+    }
+    return null;
+}
+
+function getArticleFromStorage() {
+    const stored = localStorage.getItem('currentArticle');
+    return stored ? JSON.parse(stored) : null;
+}
+
+function updateUrl(articleId) {
+    const currentParams = new URLSearchParams(window.location.search);
+    if (Number(currentParams.get('id')) !== articleId) {
+        history.replaceState({ articleId }, '', `?id=${articleId}`);
+    }
+}
+
+window.addEventListener('popstate', () => {
+    const article = getArticleFromUrl();
+    if (article) {
+        loadArticle(article);
+    }
+});
 
 // Navigation
 function initializeNavigation() {

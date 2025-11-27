@@ -321,7 +321,7 @@ function openArticle(articleId) {
     const article = blogArticles.find(a => a.id === articleId);
     if (article) {
         localStorage.setItem('currentArticle', JSON.stringify(article));
-        window.location.href = 'article.html';
+        window.location.href = `article.html?id=${articleId}`;
     }
 }
 
