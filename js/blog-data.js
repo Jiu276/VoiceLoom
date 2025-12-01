@@ -917,6 +917,52 @@ const blogArticles = [
         author: "Nora Gu",
         image: "zhoushen.png",
         readTime: "7 min"
+    },
+    {
+        id: 14,
+        title: "Stitch Fix: Your Style, On Your Schedule",
+        excerpt: "I let <a href=\"https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F\">Stitch Fix</a> plan outfits around school drop-offs, investor calls, and Friday cocktails—the curated looks (and scheduling tools) nailed every vibe without sending me to a mall.",
+        content: `<p>My November calendar is a mash-up of parent-teacher meetings, remote studio sessions, and quick flights. Instead of doom-shopping at midnight, I asked <a href="https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F">Stitch Fix</a> to style me around each commitment. Their stylist questionnaire now lets you plug in actual dates, so my Fix arrived with outfits pinned to calendar notes—right down to the cozy neutral set you see in the feature image.</p>
+
+        <h2>How Stitch Fix Captures Your Routine</h2>
+        <p>I flagged three “pain points” in the app: knitwear that pills too fast, denim that gaps, and layers that work between meetings. <a href="https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F">Stitch Fix</a> responded with fabric notes, laundering tips, and a tailored try-on order that started with the soft turtleneck-and-silk-skirt combo before moving to the faux shearling jacket for cooler nights. Seeing the exact camel knit from the photo layered over the striped shirt made me feel like the stylist was shopping my Pinterest board.</p>
+
+        <h2>Chatting With the Stylist</h2>
+        <p>After I confirmed the preview, my stylist pinged me through the <a href="https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F">Stitch Fix</a> app chat to ask whether my Friday plan was indoors or out on a patio. I sent her a quick mirror selfie—mascara smudges and all—and she swapped in a sleeker blouse so I’d feel polished under heat lamps. That little back-and-forth is where the service shines; it’s not generic AI copy, it’s a human stylist listening to how my life actually feels.</p>
+
+        <h2>Inside the Fix</h2>
+        <ul>
+            <li>A caramel ribbed sweater with a matching slip skirt for Monday calls.</li>
+            <li>A sage-to-denim mother–daughter look designed for Wednesday pick-up, complete with playful accessories.</li>
+            <li>A platinum faux-fur jacket layered over rhinestone-dusted jeans for Friday’s rooftop gathering.</li>
+        </ul>
+        <p>Each card included QR codes back to <a href="https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F">Stitch Fix</a> so I could request alternative colors or fabrics without emailing a stylist. I tapped through to order an extra silk skirt in black because I already know it will be my December party hero.</p>
+
+        <h2>Budgeting and Sustainability</h2>
+        <p>When I toggled the “lower price per item” slider, <a href="https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F">Stitch Fix</a> swapped in a vegan-leather tote and recycled-denim flares. They even included a reminder to donate pieces I’m replacing—subtle, but it made me feel like we were editing my closet together rather than just adding clutter. I saved the sustainability checklist inside my <a href="https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F">Stitch Fix</a> profile so future Fixes keep honoring my low-waste goals.</p>
+
+        <h2>Why Scheduling Delivery Matters</h2>
+        <p>I set my delivery to land on a quiet Sunday, giving me time to create outfits, snap fit notes, and drop returns first thing Monday. The <a href="https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F">Stitch Fix</a> app reminded me of the check-out deadline, but it also nudged me to log where I wore each look so future Fixes stay practical. I love that every notification links back to styling advice or care instructions—it feels like a mini fashion journal.</p>
+
+        <h2>Community Notes</h2>
+        <p>Scrolling through the “shop by look” tab, I saw other clients pairing the same faux-fur jacket with wide-leg trousers. Clicking the ensembles right inside <a href="https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F">Stitch Fix</a> let me add those pieces to my cart in seconds. It’s the closest I’ve come to swapping outfits in a dressing room with strangers and somehow still feels intimate.</p>
+
+        <h2>Closet Wins Beyond the Box</h2>
+        <p>After checkout, I opened the <a href="https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F">Stitch Fix</a> freestyle shop to grab backup basics—another ribbed tank and a pair of loafers that match the tote. Having everything logged in one dashboard means the next Fix will reference what’s already in my closet, which makes the service feel smarter every month.</p>
+
+        <h2>Quick Tips for Your Next Fix</h2>
+        <ol>
+            <li>Upload mirror selfies wearing favorite outfits so <a href="https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F">Stitch Fix</a> gets your proportions right.</li>
+            <li>Schedule the box for the lull between travel and events.</li>
+            <li>Use the “shop by look” tab to snag extras that complement your Fix pieces.</li>
+        </ol>
+
+        <p>There’s something relaxing about letting a stylist handle the heavy lifting while I sip tea and plan the week. If “style, on your schedule” sounds like the grown-up version of playing dress up, click <a href="https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F">Stitch Fix</a>, pick a delivery date, and let the outfits arrive with the same calm energy as the photo accompanying this story. The neutral palette, the little pops of red, the confident pose—it’s all there, waiting to step straight from the box into your week, courtesy of <a href="https://www.linkbux.com/track/2d89xoGGwCKsK9H7el9H410jK6u2_aUqplEpHdi2o_bgo7w_bqiK3_bNr3TzjVE13WhuKHXmdFE_c?url=http%3A%2F%2Fwww.stitchfix.com%2F">Stitch Fix</a>.</p>`,
+        category: "lifestyle",
+        date: "2025-11-14",
+        author: "Isabella Moore",
+        image: "image.png",
+        readTime: "8 min"
     }
 ];
 
